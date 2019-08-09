@@ -13,6 +13,7 @@ gem 'puma'
 gem 'rack-cors'
 
 group :development do
+  gem 'foreman'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rubocop'
   gem 'solargraph'
