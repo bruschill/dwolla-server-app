@@ -1,24 +1,21 @@
-# README
+# Dwolla Server App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Setup
+1. Install Ruby 2.6.3
+	- [`rbenv`](https://github.com/rbenv/rbenv) is a good choice for a version manager
+1. clone the project and `cd` into the directory
+1. run `gem install bundler`
+1. run `bundle install`
 
-Things you may want to cover:
+### Starting the entire project
+**Note**: requires [this project](https://github.com/bruschill/dwolla-client-app) to be cloned in the same parent directory to be of any use.
 
-* Ruby version
+Run `foreman start`
 
-* System dependencies
+### Debugging the app
+Run `rails server`. 
 
-* Configuration
+Server starts at `localhost:3000`.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Running the tests
+Run `rails test`.
