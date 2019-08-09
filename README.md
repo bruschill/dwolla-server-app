@@ -1,4 +1,4 @@
-# Dwolla Server App
+# Dwolla Server App ![travis status](https://travis-ci.org/bruschill/dwolla-server-app.svg?branch=master)
 
 ### Setup
 1. Install Ruby 2.6.3
